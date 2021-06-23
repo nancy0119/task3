@@ -1,21 +1,45 @@
 body{
     margin: 0;
     padding:0;
-    line-height: 0.5;
+    /* line-height: 0.5; */
     background:linear-gradient(to left,#7808f0,#06bdf5);
     font-family: sans-serif;
 }
-
+header{
+    background-color: aliceblue;
+    color:black;
+    margin: 0px 0px;
+    position: fixed;
+    width: 100vw;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+li{
+    float: right;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+}
 .calci{
-    width: 500px;
-    padding-top: 100px;
-    padding-bottom: 100;
+    width: 400px;
+    padding: 50px 0px;
     position: absolute;
-    top:50%;
-    left:70%;
+    top:55%;
+    left:50%;
     transition:0.25px;
     transform: translate(-50%,-50%);
     text-align: center;
+    border: 10px solid black;
+    border-radius: 50px;
 }
 #zero{
 
@@ -27,7 +51,6 @@ font-weight: 300;
 }
 
 #display{
-    
     border:none;
     background: white;
     border-radius: 30px;
@@ -38,10 +61,8 @@ font-weight: 300;
     margin: auto;
     border:2px solid white(5, 218, 255, 0.726);
     color: black;
-
-
-
 }
+
 .button{
     width: 55;
     height: 55;
@@ -54,8 +75,6 @@ font-weight: 300;
     border-radius: 30px;
     margin: 1.5;
     transition:0.25px;
-    
-    
 }
 
 .operator{
